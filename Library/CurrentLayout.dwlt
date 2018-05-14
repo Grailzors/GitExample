@@ -13,63 +13,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 1927
-    y: 7
-    width: 1906
-    height: 1146
-  m_ShowMode: 0
-  m_Title: 
-  m_RootView: {fileID: 4}
-  m_MinSize: {x: 100, y: 122}
-  m_MaxSize: {x: 4000, y: 4022}
---- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PixelRect:
-    serializedVersion: 2
     x: 0
     y: 43
     width: 1920
     height: 1117
   m_ShowMode: 4
   m_Title: 
-  m_RootView: {fileID: 5}
+  m_RootView: {fileID: 3}
   m_MinSize: {x: 950, y: 613}
   m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1906
-    height: 1146
-  m_MinSize: {x: 100, y: 122}
-  m_MaxSize: {x: 4000, y: 4022}
-  m_ActualView: {fileID: 17}
-  m_Panes:
-  - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &4
+--- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -80,19 +33,18 @@ MonoBehaviour:
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 3}
+  m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1906
     height: 1146
-  m_MinSize: {x: 100, y: 122}
-  m_MaxSize: {x: 4000, y: 4022}
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
   vertical: 0
   controlID: 423
---- !u!114 &5
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -104,18 +56,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 4}
   - {fileID: 6}
-  - {fileID: 8}
-  - {fileID: 7}
+  - {fileID: 5}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1920
     height: 1117
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 613}
   m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &6
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -136,7 +88,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &7
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -156,7 +108,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &8
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -168,20 +120,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 13}
-  - {fileID: 16}
+  - {fileID: 7}
+  - {fileID: 11}
+  - {fileID: 14}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
     width: 1920
     height: 1067
-  m_MinSize: {x: 711, y: 563}
-  m_MaxSize: {x: 18006, y: 14021}
+  m_MinSize: {x: 713, y: 563}
+  m_MaxSize: {x: 18008, y: 14021}
   vertical: 0
-  controlID: 71
---- !u!114 &9
+  controlID: 155
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -193,9 +145,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 8}
+  - {fileID: 9}
   - {fileID: 10}
-  - {fileID: 11}
-  - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -206,6 +158,56 @@ MonoBehaviour:
   m_MaxSize: {x: 4002, y: 12063}
   vertical: 1
   controlID: 72
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1143
+    height: 224
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 224
+    width: 1143
+    height: 720
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,67 +223,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: 944
     width: 1143
-    height: 221
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 19}
+    height: 123
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &11
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 221
-    width: 1143
-    height: 725
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &12
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 946
-    width: 1143
-    height: 121
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 20}
-  m_Panes:
-  - {fileID: 20}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -293,8 +245,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 14}
-  - {fileID: 15}
+  - {fileID: 12}
+  - {fileID: 13}
   m_Position:
     serializedVersion: 2
     x: 1143
@@ -304,8 +256,8 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 471}
   m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
-  controlID: 127
---- !u!114 &14
+  controlID: 106
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -325,12 +277,12 @@ MonoBehaviour:
     height: 392
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 21}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &15
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -350,12 +302,12 @@ MonoBehaviour:
     height: 675
   m_MinSize: {x: 234, y: 271}
   m_MaxSize: {x: 10004, y: 10021}
-  m_ActualView: {fileID: 22}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 22}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &16
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -373,961 +325,16 @@ MonoBehaviour:
     y: 0
     width: 405
     height: 1067
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 23}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 23}
-  - {fileID: 24}
-  - {fileID: 25}
+  - {fileID: 20}
+  - {fileID: 21}
+  - {fileID: 22}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &17
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1084893008, guid: 08443a5b77d963441a8fd8ae06b00101, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Shader Forge
-    m_Image: {fileID: 2800000, guid: 7aae165d391b84eddbed5fd0ec9e6460, type: 3}
-    m_Tooltip: 
-  m_DepthBufferBits: 0
-  m_Pos:
-    serializedVersion: 2
-    x: 1927
-    y: 29
-    width: 1906
-    height: 1124
-  shaderEvaluator:
-    editor: {fileID: 17}
-    cNodes:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    ghostNodes: []
-    scope: 0
-    shaderString: "Shader \"Shader Forge/RampShader\" {\n    Properties {\n        _Texture
-      (\"Texture\", 2D) = \"white\" {}\n        _Color1 (\"Color1\", Color) = (1,0,0,1)\n
-      \       _Color2 (\"Color2\", Color) = (0.07843138,0.3921569,0.7843137,1)\n        _SaturationIntecity
-      (\"Saturation Intecity\", Range(-1, 0)) = -0.5\n    }\n    SubShader {\n        Tags
-      {\n            \"RenderType\"=\"Opaque\"\n        }\n        Pass {\n            Name
-      \"FORWARD\"\n            Tags {\n                \"LightMode\"=\"ForwardBase\"\n
-      \           }\n            \n            \n            CGPROGRAM\n            #pragma
-      vertex vert\n            #pragma fragment frag\n            #define UNITY_PASS_FORWARDBASE\n
-      \           #include \"UnityCG.cginc\"\n            #pragma multi_compile_fwdbase_fullshadows\n
-      \           #pragma only_renderers d3d9 d3d11 glcore gles \n            #pragma
-      target 3.0\n            uniform float4 _Color2;\n            uniform sampler2D
-      _Texture; uniform float4 _Texture_ST;\n            uniform float4 _Color1;\n
-      \           uniform float _SaturationIntecity;\n            struct VertexInput
-      {\n                float4 vertex : POSITION;\n                float2 texcoord0
-      : TEXCOORD0;\n            };\n            struct VertexOutput {\n                float4
-      pos : SV_POSITION;\n                float2 uv0 : TEXCOORD0;\n            };\n
-      \           VertexOutput vert (VertexInput v) {\n                VertexOutput
-      o = (VertexOutput)0;\n                o.uv0 = v.texcoord0;\n                o.pos
-      = UnityObjectToClipPos( v.vertex );\n                return o;\n            }\n
-      \           float4 frag(VertexOutput i) : COLOR {\n////// Lighting:\n//////
-      Emissive:\n                float3 node_1767 = lerp(_Color2.rgb,_Color1.rgb,i.uv0.g);\n
-      \               float4 _Texture_var = tex2D(_Texture,TRANSFORM_TEX(i.uv0, _Texture));\n
-      \               float3 emissive = ((node_1767+_Texture_var.rgb)+((_Texture_var.r*-1.0+1.0)*_SaturationIntecity));\n
-      \               float3 finalColor = emissive;\n                return fixed4(finalColor,1);\n
-      \           }\n            ENDCG\n        }\n    }\n    FallBack \"Diffuse\"\n
-      \   CustomEditor \"ShaderForgeMaterialInspector\"\n}\n"
-    ps: {fileID: 0}
-    properties: {fileID: 0}
-    mOut: {fileID: 0}
-  preview:
-    editor: {fileID: 17}
-    settings:
-      previewAutoRotate: 1
-      colorBg: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    mesh: {fileID: 4300024, guid: 27cd3ffabf618924f9c9eeefb09b60e0, type: 3}
-    internalMaterial: {fileID: 0}
-    render: {fileID: 0}
-    previewStyle:
-      m_Name: textfield
-      m_Normal:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-      m_Hover:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-      m_Active:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-      m_Focused:
-        m_Background: {fileID: -6925230156380230527, guid: 0000000000000000d000000000000000,
-          type: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-      m_OnNormal:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-      m_OnHover:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-      m_OnActive:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-      m_OnFocused:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-      m_Border:
-        m_Left: 3
-        m_Right: 3
-        m_Top: 3
-        m_Bottom: 3
-      m_Margin:
-        m_Left: 4
-        m_Right: 4
-        m_Top: 2
-        m_Bottom: 2
-      m_Padding:
-        m_Left: 3
-        m_Right: 3
-        m_Top: 1
-        m_Bottom: 2
-      m_Overflow:
-        m_Left: 0
-        m_Right: 0
-        m_Top: 0
-        m_Bottom: 0
-      m_Font: {fileID: 0}
-      m_FontSize: 0
-      m_FontStyle: 0
-      m_Alignment: 0
-      m_WordWrap: 0
-      m_RichText: 0
-      m_TextClipping: 1
-      m_ImagePosition: 3
-      m_ContentOffset: {x: 0, y: 0}
-      m_FixedWidth: 0
-      m_FixedHeight: 0
-      m_StretchWidth: 1
-      m_StretchHeight: 0
-    backgroundTexture: {fileID: 0}
-    isDraggingLMB: 0
-    dragStartPosLMB: {x: 0, y: 0}
-    rotMeshStart: {x: -30, y: 0}
-    rotMesh: {x: 30, y: -58501.97}
-    rotMeshSmooth: {x: 30, y: -58501.52}
-    isDraggingRMB: 0
-    cam: {fileID: 0}
-    camPivot: {fileID: 0}
-    lights:
-    - {fileID: 0}
-    - {fileID: 0}
-    enabled: 1
-    previewRect:
-      serializedVersion: 2
-      x: 0
-      y: 43
-      width: 320
-      height: 320
-    targetFOV: 30
-    smoothFOV: 30
-  nodeView: {fileID: 0}
-  nodeBrowser: {fileID: 0}
-  ps: {fileID: 0}
-  mainNode: {fileID: 0}
-  statusBox:
-    editor: {fileID: 17}
-    vCount:
-      min: 0
-      max: 0
-    fCount:
-      min: 0
-      max: 0
-    vtCount:
-      min: 0
-      max: 0
-    ftCount:
-      min: 0
-      max: 0
-    platform: 0
-    labelStyle:
-      m_Name: ControlLabel
-      m_Normal:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-      m_Hover:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-      m_Active:
-        m_Background: {fileID: 3696117970163896625, guid: 0000000000000000d000000000000000,
-          type: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.2985075, g: 0.4923412, b: 1, a: 1}
-      m_Focused:
-        m_Background: {fileID: 3696117970163896625, guid: 0000000000000000d000000000000000,
-          type: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.2985075, g: 0.4923412, b: 1, a: 1}
-      m_OnNormal:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-      m_OnHover:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-      m_OnActive:
-        m_Background: {fileID: 3696117970163896625, guid: 0000000000000000d000000000000000,
-          type: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.2985075, g: 0.4923412, b: 1, a: 1}
-      m_OnFocused:
-        m_Background: {fileID: 3696117970163896625, guid: 0000000000000000d000000000000000,
-          type: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.2985075, g: 0.4923412, b: 1, a: 1}
-      m_Border:
-        m_Left: 0
-        m_Right: 0
-        m_Top: 0
-        m_Bottom: 0
-      m_Margin:
-        m_Left: 0
-        m_Right: 0
-        m_Top: 0
-        m_Bottom: 0
-      m_Padding:
-        m_Left: 8
-        m_Right: 0
-        m_Top: 3
-        m_Bottom: 1
-      m_Overflow:
-        m_Left: 0
-        m_Right: 0
-        m_Top: 0
-        m_Bottom: 0
-      m_Font: {fileID: 0}
-      m_FontSize: 0
-      m_FontStyle: 0
-      m_Alignment: 0
-      m_WordWrap: 0
-      m_RichText: 0
-      m_TextClipping: 1
-      m_ImagePosition: 0
-      m_ContentOffset: {x: 0, y: 0}
-      m_FixedWidth: 0
-      m_FixedHeight: 0
-      m_StretchWidth: 1
-      m_StretchHeight: 0
-    labelStyleCentered:
-      m_Name: ControlLabel
-      m_Normal:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-      m_Hover:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-      m_Active:
-        m_Background: {fileID: 3696117970163896625, guid: 0000000000000000d000000000000000,
-          type: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.2985075, g: 0.4923412, b: 1, a: 1}
-      m_Focused:
-        m_Background: {fileID: 3696117970163896625, guid: 0000000000000000d000000000000000,
-          type: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.2985075, g: 0.4923412, b: 1, a: 1}
-      m_OnNormal:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-      m_OnHover:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-      m_OnActive:
-        m_Background: {fileID: 3696117970163896625, guid: 0000000000000000d000000000000000,
-          type: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.2985075, g: 0.4923412, b: 1, a: 1}
-      m_OnFocused:
-        m_Background: {fileID: 3696117970163896625, guid: 0000000000000000d000000000000000,
-          type: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.2985075, g: 0.4923412, b: 1, a: 1}
-      m_Border:
-        m_Left: 0
-        m_Right: 0
-        m_Top: 0
-        m_Bottom: 0
-      m_Margin:
-        m_Left: 0
-        m_Right: 0
-        m_Top: 0
-        m_Bottom: 0
-      m_Padding:
-        m_Left: 8
-        m_Right: 0
-        m_Top: 3
-        m_Bottom: 1
-      m_Overflow:
-        m_Left: 0
-        m_Right: 0
-        m_Top: 0
-        m_Bottom: 0
-      m_Font: {fileID: 0}
-      m_FontSize: 0
-      m_FontStyle: 0
-      m_Alignment: 4
-      m_WordWrap: 0
-      m_RichText: 0
-      m_TextClipping: 1
-      m_ImagePosition: 0
-      m_ContentOffset: {x: 0, y: 0}
-      m_FixedWidth: 0
-      m_FixedHeight: 0
-      m_StretchWidth: 1
-      m_StretchHeight: 0
-    holderStyle:
-      m_Name: 
-      m_Normal:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-      m_Hover:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-      m_Active:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-      m_Focused:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-      m_OnNormal:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-      m_OnHover:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-      m_OnActive:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-      m_OnFocused:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-      m_Border:
-        m_Left: 0
-        m_Right: 0
-        m_Top: 0
-        m_Bottom: 0
-      m_Margin:
-        m_Left: 0
-        m_Right: 0
-        m_Top: 0
-        m_Bottom: 0
-      m_Padding:
-        m_Left: 0
-        m_Right: 0
-        m_Top: 0
-        m_Bottom: 0
-      m_Overflow:
-        m_Left: 0
-        m_Right: 0
-        m_Top: 0
-        m_Bottom: 0
-      m_Font: {fileID: 0}
-      m_FontSize: 0
-      m_FontStyle: 0
-      m_Alignment: 0
-      m_WordWrap: 0
-      m_RichText: 1
-      m_TextClipping: 0
-      m_ImagePosition: 0
-      m_ContentOffset: {x: 0, y: 0}
-      m_FixedWidth: 0
-      m_FixedHeight: 0
-      m_StretchWidth: 1
-      m_StretchHeight: 0
-    headerStyle:
-      m_Name: Toolbar
-      m_Normal:
-        m_Background: {fileID: -1997011816300963927, guid: 0000000000000000d000000000000000,
-          type: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 1, g: 1, b: 1, a: 1}
-      m_Hover:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-      m_Active:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-      m_Focused:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-      m_OnNormal:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.06911764, g: 0.06911764, b: 0.06911764, a: 1}
-      m_OnHover:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-      m_OnActive:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-      m_OnFocused:
-        m_Background: {fileID: 0}
-        m_ScaledBackgrounds: []
-        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-      m_Border:
-        m_Left: 0
-        m_Right: 0
-        m_Top: 2
-        m_Bottom: 2
-      m_Margin:
-        m_Left: 0
-        m_Right: 0
-        m_Top: 0
-        m_Bottom: 0
-      m_Padding:
-        m_Left: 6
-        m_Right: 6
-        m_Top: 0
-        m_Bottom: 0
-      m_Overflow:
-        m_Left: 0
-        m_Right: 0
-        m_Top: 0
-        m_Bottom: 0
-      m_Font: {fileID: 3021071571035331536, guid: 0000000000000000d000000000000000,
-        type: 0}
-      m_FontSize: 10
-      m_FontStyle: 0
-      m_Alignment: 3
-      m_WordWrap: 0
-      m_RichText: 0
-      m_TextClipping: 1
-      m_ImagePosition: 0
-      m_ContentOffset: {x: 0, y: -1}
-      m_FixedWidth: 0
-      m_FixedHeight: 18
-      m_StretchWidth: 0
-      m_StretchHeight: 0
-  nodes:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  windowStyle:
-    m_Name: textfield
-    m_Normal:
-      m_Background: {fileID: 4072351054032163450, guid: 0000000000000000d000000000000000,
-        type: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-    m_Hover:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-    m_Active:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-    m_Focused:
-      m_Background: {fileID: -6925230156380230527, guid: 0000000000000000d000000000000000,
-        type: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-    m_OnNormal:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-    m_OnHover:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-    m_OnActive:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-    m_OnFocused:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
-    m_Border:
-      m_Left: 3
-      m_Right: 3
-      m_Top: 3
-      m_Bottom: 3
-    m_Margin:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Padding:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Overflow:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Font: {fileID: 0}
-    m_FontSize: 0
-    m_FontStyle: 0
-    m_Alignment: 0
-    m_WordWrap: 0
-    m_RichText: 0
-    m_TextClipping: 1
-    m_ImagePosition: 3
-    m_ContentOffset: {x: 0, y: 0}
-    m_FixedWidth: 0
-    m_FixedHeight: 0
-    m_StretchWidth: 1
-    m_StretchHeight: 0
-  titleStyle:
-    m_Name: LargeLabel
-    m_Normal:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 0.9215686}
-    m_Hover:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-    m_Active:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-    m_Focused:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-    m_OnNormal:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-    m_OnHover:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-    m_OnActive:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-    m_OnFocused:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-    m_Border:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Margin:
-      m_Left: 4
-      m_Right: 4
-      m_Top: 4
-      m_Bottom: 4
-    m_Padding:
-      m_Left: 2
-      m_Right: 2
-      m_Top: 2
-      m_Bottom: 2
-    m_Overflow:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Font: {fileID: -2914059783256359354, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_FontSize: 24
-    m_FontStyle: 0
-    m_Alignment: 0
-    m_WordWrap: 0
-    m_RichText: 0
-    m_TextClipping: 1
-    m_ImagePosition: 0
-    m_ContentOffset: {x: 0, y: 0}
-    m_FixedWidth: 0
-    m_FixedHeight: 0
-    m_StretchWidth: 1
-    m_StretchHeight: 0
-  versionStyle:
-    m_Name: MiniBoldLabel
-    m_Normal:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    m_Hover:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Active:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-    m_Focused:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnNormal:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.06911764, g: 0.06911764, b: 0.06911764, a: 1}
-    m_OnHover:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnActive:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-    m_OnFocused:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
-    m_Border:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Margin:
-      m_Left: 1
-      m_Right: 4
-      m_Top: 3
-      m_Bottom: 1
-    m_Padding:
-      m_Left: 1
-      m_Right: 2
-      m_Top: 1
-      m_Bottom: 1
-    m_Overflow:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Font: {fileID: -9142270697591305147, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_FontSize: 9
-    m_FontStyle: 0
-    m_Alignment: 3
-    m_WordWrap: 0
-    m_RichText: 0
-    m_TextClipping: 1
-    m_ImagePosition: 0
-    m_ContentOffset: {x: 0, y: 0}
-    m_FixedWidth: 0
-    m_FixedHeight: 0
-    m_StretchWidth: 1
-    m_StretchHeight: 0
-  nodeScrollbarStyle:
-    m_Name: 
-    m_Normal:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Hover:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Active:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Focused:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnNormal:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnHover:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnActive:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnFocused:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Border:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Margin:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Padding:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Overflow:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Font: {fileID: 0}
-    m_FontSize: 0
-    m_FontStyle: 0
-    m_Alignment: 0
-    m_WordWrap: 0
-    m_RichText: 1
-    m_TextClipping: 0
-    m_ImagePosition: 0
-    m_ContentOffset: {x: 0, y: 0}
-    m_FixedWidth: 0
-    m_FixedHeight: 0
-    m_StretchWidth: 1
-    m_StretchHeight: 0
-  separatorLeft: {fileID: 0}
-  separatorRight: {fileID: 0}
-  mousePosition: {x: -40, y: -12}
-  currentShaderAsset: {fileID: 4800000, guid: a1d72cfe8fee2654cbee1dac43878df8, type: 3}
-  currentShaderPath: Shader Forge/RampShader
-  nodeTemplates:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  shaderOutdated: 0
-  deltaTime: 0.02
-  dockedLastUpdate: 3326.8484
-  _docked: 0
-  previousPosition:
-    serializedVersion: 2
-    x: 1927
-    y: 29
-    width: 1906
-    height: 1124
-  closeMe: 0
-  screenshotInProgress: 0
-  firstFrameScreenshotInProgress: 0
-  preScreenshotZoom: 1
-  shaderPresetNames:
-  - Unlit
-  - 'Lit
-
-    (PBR)'
-  - 'Lit
-
-    (Basic)'
-  - Custom Lighting
-  - Sprite
-  - 'Particle
-
-    (Additive)'
-  - 'Particle
-
-    (Alpha-Blended)'
-  - 'Particle
-
-    (Multiplicative)'
-  - Sky
-  - Post-Effect
-  shaderPresetShaders:
-  - Unlit
-  - PBR
-  - Basic
-  - CustomLighting
-  - Sprite
-  - ParticleAdditive
-  - ParticleAlphaBlended
-  - ParticleMultiplicative
-  - Sky
-  - PostEffect
-  shaderPresetDescriptions:
-  - Unlit means that light sources will not affect this shader, it will simply have
-    the color you give it, regardless of the scene setup.
-  - Lit (PBR) is set up to match Unity's Physically Based shader, affected by lightmaps,
-    light probes, reflection probes etc.
-  - Lit (Basic) is the old-school Blinn-Phong lighting model. Direct lighting only,
-    no lightmap or probe data.
-  - Custom Lighting is set up with a simple example of how you can create your own
-    lighting models. The initial setup is a Blinn-Phong shader.
-  - Sprite is for creating 2D shaders to be used on sprites. These will have the pixel-perfect
-    option and sort properly with other 2D sprites.
-  - Particle (Additive) is generally for glow effects, lightshafts, sparks etc. Primarily
-    used in particle systems.
-  - Particle (Alpha-Blended) is generally for debris effects, dusty smoke etc. Primarily
-    used in particle systems.
-  - Particle (Multiplicative) is generally for darkening effects, black smoke, evil-looking
-    anti-glow etc. Primarily used in particle systems.
-  - Sky is for creating shaders to be used with a sky material in your scene. It will
-    render behind everything else.
-  - Post-Effect is for creating shaders meant to render full-screen rather than at
-    a position in the world, commonly used for post-process effects
-  displaySettings: 0
---- !u!114 &18
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -1350,9 +357,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 313
+    y: 316
     width: 1141
-    height: 704
+    height: 699
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -1363,8 +370,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     m_HBaseRangeMin: -570.5
     m_HBaseRangeMax: 570.5
-    m_VBaseRangeMin: -343.5
-    m_VBaseRangeMax: 343.5
+    m_VBaseRangeMin: -341
+    m_VBaseRangeMax: 341
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1382,9 +389,9 @@ MonoBehaviour:
       x: 0
       y: 17
       width: 1141
-      height: 687
+      height: 682
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 570.5, y: 343.5}
+    m_Translation: {x: 570.5, y: 341}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -1392,18 +399,18 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -570.5
-      y: -343.5
+      y: -341
       width: 1141
-      height: 687
+      height: 682
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1141, y: 704}
+  m_LastWindowPixelSize: {x: 1141, y: 699}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
---- !u!114 &19
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -1428,7 +435,7 @@ MonoBehaviour:
     x: 0
     y: 92
     width: 1141
-    height: 200
+    height: 203
   m_SceneLighting: 1
   lastFramingTime: 2072.83765594
   m_2DMode: 0
@@ -1478,7 +485,7 @@ MonoBehaviour:
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &20
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -1501,10 +508,10 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 1038
+    y: 1036
     width: 1141
-    height: 100
---- !u!114 &21
+    height: 102
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -1532,7 +539,7 @@ MonoBehaviour:
     height: 371
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9c2c0000
+    m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: a0fbffff00000000
     m_RenameOverlay:
@@ -1550,14 +557,14 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 14}
+      m_ClientGUIView: {fileID: 12}
     m_SearchString: 
   m_ExpandedScenes:
   - 
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
---- !u!114 &22
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -1594,19 +601,18 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders:
-    - Assets
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 46
   m_LastFolders: []
   m_LastFoldersGridSize: 46
-  m_LastProjectPath: D:\matthew.payne\Desktop\New Unity Project
+  m_LastProjectPath: D:\matthew.payne\Documents\Github\GitExample
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: cc2a0000
     m_LastClickedID: 10956
-    m_ExpandedIDs: 00000000382a0000ea2c0000
+    m_ExpandedIDs: 2e270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1634,7 +640,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000382a0000ea2c0000
+    m_ExpandedIDs: 2e270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1650,7 +656,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 15}
+      m_ClientGUIView: {fileID: 13}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -1689,7 +695,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 46
   m_DirectoriesAreaWidth: 152
---- !u!114 &23
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -1722,7 +728,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
---- !u!114 &24
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -1753,7 +759,7 @@ MonoBehaviour:
   - https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   m_RegisteredViewInstances:
   - {fileID: 0}
---- !u!114 &25
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
